@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="Images/icon.png" /> <!--THIS ICON ISN'T MINE. I WANT TO MAKE THAT VERY CLEAR HERE.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Home of JEMM</title>
+    <!--CSS Document-->
+    <link rel="stylesheet" href="style.css">
+    <!--Javascript Scripts-->
+    <script src="scripts.js"></script> 
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Main</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>John Easton Malone</h1>
+                <p>God's Eepyest Little Guy</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about_photo">
+                    <img src="Images/IMG_3357.png">
+                </div>
+                <div class="about_text">
+                    <h1 class="subtitle">Who Am I?</h1>
+                    <p>Hello! I am John Easton Malone (He/Him Pronouns). I am a Freshman Computer Science Major at RIT 
+                        <s>who may or may not be rethinking his life decisions.</s> I like Computers, Technology, Art, Reading, and a lot of other things.
+                           This website is here to document any projects I have/am working on, display my art, and give people access to who I am.</p>
+                    
+                    <div class="tab_titles">
+                        <p class="tab_links active_link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab_links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab_links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab_contents active_tab" id="skills">
+                        <ul>
+                            <li><span>Artist</span><br>Primarily Figure Drawing and Character design.</li>
+                            <li><span>Programmer</span><br>Currently proficient in Python, working on C# skills.</li>
+                            <li><span>Other</span><br>Mechanical and Electrical Engineering projects pending.</li>
+                        </ul>
+                    </div>
+                    <div class="tab_contents" id="experience">
+                        <ul>
+                            <li><span>Grump's Cafe Annapolis</span><br>Bus Boy.</li>
+                        </ul>
+                    </div>
+                    <div class="tab_contents" id="education">
+                        <ul>
+                            <li><span>2023-Present</span><br>Attending RIT for Computer Science</li>
+                            <li><span>2023</span><br>Graduated Highschool</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Portfolio Section-->
+    <!--This is where I'd put the contents of my Portfolio. IF I HAD ANY!-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub_title">Portfolio</h1>
+            <div class="collected works">
+                <div class="work">
+                    <img src="Images/MyHonestReaction.png">
+                    <p>This is where I'd put all the projects I've worked on.</p>
+                    <h2>IF I HAD ANY!</h2>
+                    <p></p>
+                    <p>"Sir, you can't just make a portfolio section without putting anything in there!"</p>
+                    <p>My Honest Reaction:</p>
+                    <img src="Images/youre-under-arrest-1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
